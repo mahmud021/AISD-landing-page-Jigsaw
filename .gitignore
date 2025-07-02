@@ -7,7 +7,6 @@
 npm-debug.log
 hot
 /.env
-/build_production/
 # Optional ignores
 # /build_staging/
 # /build_production/
