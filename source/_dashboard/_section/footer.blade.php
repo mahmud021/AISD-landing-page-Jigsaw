@@ -9,7 +9,7 @@
         <!-- Logo -->
         <div class="flex justify-center mb-10">
             <a href="/" aria-label="Home" class="block">
-                <img src="{{ url('images/logo.webp') }}" alt="AISD Logo" class="h-20 w-auto">
+                <img src="/assets/images/logo.webp" alt="AISD Logo" class="h-20 w-auto">
             </a>
         </div>
 

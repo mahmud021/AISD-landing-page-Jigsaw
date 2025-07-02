@@ -25,7 +25,7 @@
                 <!-- Original Set -->
                 @foreach([1,2,3,4,5] as $i)
                     <div class="mx-4 w-64 md:w-96 h-56 md:h-72 flex-shrink-0 rounded-2xl overflow-hidden border-4 border-white shadow-lg relative">
-                        <img src="{{ url('images/' . $i . '.webp') }}"
+                        <img src="{{ url('/assets/images/' . $i . '.webp') }}"
                              class="absolute inset-0 w-full h-full object-cover"
                              loading="lazy"
                              alt="Project highlight {{ $i }}">
@@ -40,7 +40,7 @@
                 <!-- Mirrored Set (for seamless loop) -->
                 @foreach([1,2,3,4,5] as $i)
                     <div class="mx-4 w-64 md:w-96 h-56 md:h-72 flex-shrink-0 rounded-2xl overflow-hidden border-4 border-white shadow-lg relative" aria-hidden="true">
-                        <img src="{{ url('images/' . $i . '.webp') }}"
+                        <img src="{{ url('/assets/images/' . $i . '.webp') }}"
                              class="absolute inset-0 w-full h-full object-cover"
                              loading="lazy">
                     </div>
@@ -54,7 +54,7 @@
                 <!-- Original Set -->
                 @foreach([6,7,8,9,10] as $i)
                     <div class="mx-4 w-48 md:w-64 h-40 md:h-52 flex-shrink-0 rounded-xl overflow-hidden border-4 border-white shadow-md">
-                        <img src="{{ url('images/' . $i . '.webp') }}"
+                        <img src="{{ url('/assets/images/' . $i . '.webp') }}"
                              class="w-full h-full object-cover"
                              loading="lazy"
                              alt="Gallery image {{ $i }}">
@@ -64,7 +64,7 @@
                 <!-- Mirrored Set -->
                 @foreach([6,7,8,9,10] as $i)
                     <div class="mx-4 w-48 md:w-64 h-40 md:h-52 flex-shrink-0 rounded-xl overflow-hidden border-4 border-white shadow-md" aria-hidden="true">
-                        <img src="{{ url('images/' . $i . '.webp') }}"
+                        <img src="{{ url('/assets/images/' . $i . '.webp') }}"
                              class="w-full h-full object-cover"
                              loading="lazy">
                     </div>

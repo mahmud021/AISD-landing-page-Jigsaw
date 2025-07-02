@@ -11,7 +11,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Card 1 -->
             <div class="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden flex flex-col">
-                <img src="{{ url('images/6.webp') }}" alt="Out-of-School Study" class="w-full h-40 object-cover">
+                <img src="{{ url('/assets/images/6.webp') }}" alt="Out-of-School Study" class="w-full h-40 object-cover">
                 <div class="p-5 flex flex-col gap-4">
           <span class="inline-block w-fit px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
             Access to Education
@@ -26,7 +26,7 @@
             </div>
             <!-- Card 2 -->
             <div class="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden flex flex-col">
-                <img src="{{ url('images/7.webp') }}" alt="Child Labor Study" class="w-full h-40 object-cover">
+                <img src="{{ url('/assets/images/7.webp') }}" alt="Child Labor Study" class="w-full h-40 object-cover">
                 <div class="p-5 flex flex-col gap-4">
           <span class="inline-block w-fit px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
             Child Protection
@@ -41,7 +41,7 @@
             </div>
             <!-- Card 3 -->
             <div class="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden flex flex-col">
-                <img src="{{ url('images/8.webp') }}" alt="Diabetes Study" class="w-full h-40 object-cover">
+                <img src="{{ url('/assets/images/8.webp') }}" alt="Diabetes Study" class="w-full h-40 object-cover">
                 <div class="p-5 flex flex-col gap-4">
           <span class="inline-block w-fit px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
             Public Health
@@ -56,7 +56,7 @@
             </div>
             <!-- Card 4 -->
             <div class="bg-white border border-gray-200 rounded-xl shadow-md overflow-hidden flex flex-col">
-                <img src="{{ url('images/9.webp') }}" alt="Drug Vigilance Study" class="w-full h-40 object-cover">
+                <img src="{{ url('/assets/images/9.webp') }}" alt="Drug Vigilance Study" class="w-full h-40 object-cover">
                 <div class="p-5 flex flex-col gap-4">
           <span class="inline-block w-fit px-2 py-0.5 bg-emerald-50 text-emerald-700 text-xs font-semibold rounded">
             Substance Control
@@ -95,7 +95,7 @@
             ] as $project)
                 <div class="relative overflow-hidden rounded-2xl shadow-lg group">
                     <!-- Project Image -->
-                    <img src="{{ url('images/' . $project['img']) }}" alt="{{ $project['title'] }}"
+                    <img src="{{ url('/assets/images/' . $project['img']) }}" alt="{{ $project['title'] }}"
                          class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105">
                     <!-- Gradient Overlay -->
                     <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>

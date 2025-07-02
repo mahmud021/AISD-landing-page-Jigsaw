@@ -86,7 +86,7 @@
                  :class="{ 'opacity-100': show }">
                 <div class="relative z-10 max-w-md mx-auto">
                     <div class="relative">
-                        <img src="{{ url('images/africa.svg') }}" alt="Africa Map"
+                        <img src="/assets/images/africa.svg" alt="Africa Map"
                              class="w-full h-auto transition-transform duration-500 hover:scale-105" />
 
                         <div class="absolute left-[41%] top-[30%]">
