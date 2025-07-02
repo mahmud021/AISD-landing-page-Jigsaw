@@ -3,7 +3,7 @@
     <!-- Background Image -->
     <div
         class="absolute inset-0 z-0 bg-cover bg-center"
-        style="background-image: url('{{ url('images/1.webp') }}');"
+        style="background-image: url('{{ 'assets/images/1.webp'}}');"
     ></div>
 
     <!-- Gradient Overlay -->

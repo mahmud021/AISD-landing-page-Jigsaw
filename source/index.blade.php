@@ -21,7 +21,7 @@
                 <!-- Logo -->
                 <!-- Logo + AISD Name -->
                 <a href="#hero" class="flex items-center space-x-2 group">
-                    <img src="{{ url('images/logo.webp') }}" alt="AISD Logo" class="h-8 w-auto">
+                    <img src="/assets/images/logo.webp " alt="AISD Logo" class="h-8 w-auto">
                     <span class="text-lg font-bold text-gray-800 group-hover:text-orange-600 transition">
         AISD
     </span>
@@ -91,15 +91,15 @@
     </nav>
 
 
-    @include('_dashboard.section.hero')
-    @include('_dashboard.section.about')
-    @include('_dashboard.section.paace')
-    @include('_dashboard.section.partners')
-    @include('_dashboard.section.projects')
-    @include('_dashboard.section.stats')
-    @include('_dashboard.section.volunteers')
-    @include('_dashboard.section.gallery')
-    @include('_dashboard.section.contact-us')
-    @include('_dashboard.section.footer')
+    @include('_dashboard._section.hero')
+    @include('_dashboard._section.about')
+    @include('_dashboard._section.paace')
+    @include('_dashboard._section.partners')
+    @include('_dashboard._section.projects')
+    @include('_dashboard._section.stats')
+    @include('_dashboard._section.volunteers')
+    @include('_dashboard._section.gallery')
+    @include('_dashboard._section.contact-us')
+    @include('_dashboard._section.footer')
 
 @endsection
