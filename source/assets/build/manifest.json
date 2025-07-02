@@ -5,9 +5,12 @@
     "isEntry": true
   },
   "source/_assets/js/main.js": {
-    "file": "assets/main-l0sNRNKZ.js",
+    "file": "assets/main-DBcKc1Ej.js",
     "name": "main",
     "src": "source/_assets/js/main.js",
-    "isEntry": true
+    "isEntry": true,
+    "css": [
+      "assets/main-B4BYeFAQ.css"
+    ]
   }
 }
