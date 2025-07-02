@@ -10,7 +10,7 @@
                 <!-- Main Card with Caption (Now First) -->
                 <div class="rounded-2xl bg-white shadow-lg border-4 border-orange-500 overflow-hidden transition-transform hover:scale-[1.02]">
                     <div class="p-4">
-                        <img src="{{url('images/2.webp')}}" alt="AISD community health initiative"
+                        <img src="/assets/images/2.webp" alt="AISD community health initiative"
                              class="w-full aspect-4/3 rounded-xl object-cover" loading="lazy">
                     </div>
                     <div class="px-4 pb-4">

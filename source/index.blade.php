@@ -91,15 +91,15 @@
     </nav>
 
 
-    @include('dashboard.section.hero')
-    @include('dashboard.section.about')
-    @include('dashboard.section.paace')
-    @include('dashboard.section.partners')
-    @include('dashboard.section.projects')
-    @include('dashboard.section.stats')
-    @include('dashboard.section.volunteers')
-    @include('dashboard.section.gallery')
-    @include('dashboard.section.contact-us')
-    @include('dashboard.section.footer')
+    @include('_dashboard.section.hero')
+    @include('_dashboard.section.about')
+    @include('_dashboard.section.paace')
+    @include('_dashboard.section.partners')
+    @include('_dashboard.section.projects')
+    @include('_dashboard.section.stats')
+    @include('_dashboard.section.volunteers')
+    @include('_dashboard.section.gallery')
+    @include('_dashboard.section.contact-us')
+    @include('_dashboard.section.footer')
 
 @endsection
