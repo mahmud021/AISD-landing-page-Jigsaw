@@ -1,9 +1,105 @@
 @extends('_layouts.main')
 
 @section('body')
-<div class="p-8">
-    <h1 class="text-3xl font-bold">Hello world!</h1>
-    <img src="{{ url('images/jigsaw.png') }}" alt="Description">
-</div>
+    <nav
+            x-data="{ open: false, active: '' }"
+            x-init="
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    active = entry.target.id;
+                }
+            });
+        }, { threshold: 0.5 });
+
+        document.querySelectorAll('[data-spy]').forEach(section => observer.observe(section));
+    "
+            class="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-white/60 shadow-sm border-b border-white/30"
+    >
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <!-- Logo -->
+                <!-- Logo + AISD Name -->
+                <a href="#hero" class="flex items-center space-x-2 group">
+                    <img src="{{ url('images/logo.webp') }}" alt="AISD Logo" class="h-8 w-auto">
+                    <span class="text-lg font-bold text-gray-800 group-hover:text-orange-600 transition">
+        AISD
+    </span>
+                </a>
+
+
+                <!-- Desktop Nav -->
+                <div class="hidden sm:flex space-x-6">
+                    <template x-for="item in [
+                    { id: 'hero', label: 'Home' },
+                    { id: 'about', label: 'About' },
+                    { id: 'paace', label: 'PAACE Vision' },
+                    { id: 'partners', label: 'Partners' },
+                    { id: 'projects', label: 'Projects' },
+                    { id: 'volunteers', label: 'The Team' },
+                    { id: 'gallery', label: 'Gallery' },
+                    { id: 'contact', label: 'Contact' },
+                ]" :key="item.id">
+                        <a
+                                :href="`#${item.id}`"
+                                :class="active === item.id ? 'text-orange-600 font-semibold nav-link' : 'text-gray-800 hover:text-orange-600 nav-link'"
+                                class="transition px-1 py-2"
+                                x-text="item.label"
+                        ></a>
+                    </template>
+                </div>
+
+                <!-- Mobile toggle -->
+                <div class="sm:hidden flex items-center">
+                    <button @click="open = !open" class="text-gray-700 hover:text-orange-600 focus:outline-none">
+                        <svg x-show="!open" class="w-6 h-6" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                        <svg x-show="open" class="w-6 h-6" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Nav -->
+        <div x-show="open" x-transition class="sm:hidden bg-white/70 backdrop-blur-md border-t border-white/30">
+            <div class="px-4 pt-4 pb-6 space-y-2">
+                <template x-for="item in [
+                { id: 'hero', label: 'Home' },
+                { id: 'about', label: 'About' },
+                { id: 'paace', label: 'PAACE Vision' },
+                { id: 'partners', label: 'Partners' },
+                { id: 'projects', label: 'Projects' },
+                { id: 'volunteers', label: 'The Team' },
+                { id: 'gallery', label: 'Gallery' },
+                { id: 'contact', label: 'Contact' },
+            ]" :key="item.id">
+                    <a
+                            :href="`#${item.id}`"
+                            @click="open = false"
+                            :class="active === item.id ? 'text-orange-600 font-semibold nav-link' : 'text-gray-800 nav-link'"
+                            class="block px-1 py-2"
+                            x-text="item.label"
+                    ></a>
+                </template>
+            </div>
+        </div>
+    </nav>
+
+
+    @include('dashboard.section.hero')
+    @include('dashboard.section.about')
+    @include('dashboard.section.paace')
+    @include('dashboard.section.partners')
+    @include('dashboard.section.projects')
+    @include('dashboard.section.stats')
+    @include('dashboard.section.volunteers')
+    @include('dashboard.section.gallery')
+    @include('dashboard.section.contact-us')
+    @include('dashboard.section.footer')
 
 @endsection
