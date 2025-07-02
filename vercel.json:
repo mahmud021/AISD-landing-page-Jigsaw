@@ -1,0 +1,4 @@
+{
+  "public": "build_production",
+  "cleanUrls": true
+}
