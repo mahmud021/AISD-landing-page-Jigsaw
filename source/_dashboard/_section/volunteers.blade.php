@@ -54,7 +54,7 @@
                         </div>
                         <div class="w-36">
                             <img class="w-24 h-24 mx-auto rounded-full object-cover border-2 border-white shadow-md"
-                                 src='/assets/images/team/hamza.webp'
+                                 src='https://api.dicebear.com/9.x/initials/svg?seed=HM'
                                  alt="Hamza Mohammed"
                                  loading="lazy" />
                             <p class="mt-3 text-sm font-medium text-gray-800">Hamza Mohammed</p>
@@ -85,7 +85,7 @@
                         </div>
                         <div class="w-36">
                             <img class="w-24 h-24 mx-auto rounded-full object-cover border-2 border-white shadow-md"
-                                 src='/assets/images/team/aminu.webp'
+                                 src='https://api.dicebear.com/9.x/initials/svg?seed=AB'
                                  alt="Dr. Aminu Bichi"
                                  loading="lazy" />
                             <p class="mt-3 text-sm font-medium text-gray-800">Dr. Aminu Bichi</p>
@@ -105,8 +105,8 @@
 
             <!-- CTA -->
             <div class="text-center pt-12">
-            </div>                <p class="text-gray-600 mb-4 text-sm">
-            <p class="text-gray-600 mb-4 text-sm">Every member of our team plays a vital role in creating change. We appreciate their commitment and service.</p>
+            <p class="text-gray-600 text-center mb-4 text-sm">Every member of our team plays a vital role in creating change. We appreciate their commitment and service.</p>
+            </div>
 
         </div>
     </section>
