@@ -1,5 +1,12 @@
 {
-  "buildCommand": "composer install && npm install && npm run build",
-  "outputDirectory": "build_production",
-  "cleanUrls": true
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    },
+    "commands": {
+      "preinstall": "composer install",
+      "install": "npm install",
+      "build": "npm run build"
+    }
+  }
 }
