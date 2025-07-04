@@ -57,3 +57,56 @@ body {
 html {
     scroll-behavior: smooth;
 }
+.teachers-font {
+    font-family: 'Teachers', sans-serif;
+}
+
+.section-header {
+    position: relative;
+    padding-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.section-header:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #FF7F50, #0a558c);
+    border-radius: 2px;
+}
+
+.aisd-card {
+    transition: all 0.3s ease;
+    border-radius: 16px;
+    overflow: hidden;
+    background: white;
+}
+
+.aisd-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.border-orange {
+    border: 2px solid #FF7F50;
+    outline: 3px solid #ff7f5044;
+}
+
+.icon-circle {
+    transition: all 0.3s ease;
+}
+
+.approach-item:hover .icon-circle {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(255, 127, 80, 0.2);
+}
+
+.bg-pattern {
+    background-image: radial-gradient(#ff7f5022 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
