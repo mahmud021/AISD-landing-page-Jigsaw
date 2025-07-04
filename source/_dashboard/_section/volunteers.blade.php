@@ -123,7 +123,7 @@
                   ['name' => 'Dr. Nasir Baba', 'role' => 'Associate - iTPD'],
                   ['name' => 'Razi Abdullahi', 'role' => 'Associate - Partnership'],
                   ['name' => 'Yusuf Kolo Yaro', 'role' => 'Associate'],
-                  ['name' => "Fatima Ma'aji", 'role' => 'Office Manager'],
+                  ['name' => "Fatima Ma'aji", 'role' => 'Heads of Operations'],
                   ['name' => 'Prince Effah', 'role' => 'Head of Logistics'],
                   ['name' => 'Zainab Magaji Ahmed', 'role' => 'Volunteer HR Assistant'],
                   ['name' => 'Lyra Samuel Zirawara', 'role' => 'Volunteer Education Officer'],
