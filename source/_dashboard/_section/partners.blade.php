@@ -3,8 +3,13 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Section Header -->
         <div class="text-center mb-12">
-            <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">Who We Work With</h2>
-            <p class="text-3xl sm:text-4xl font-bold text-gray-800">Partnerships That Power Our Impact</p>
+    <span class="inline-block py-1.5 px-4 bg-aisd-orange-light text-aisd-orange rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+        Who We Work With
+    </span>
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4 teachers-font">
+                Partnerships That <span class="text-aisd-orange">Power Our Impact</span>
+            </h2>
+            <!-- Description can be added here if needed -->
         </div>
         <!-- Grid Layout -->
         <div class="grid grid-cols-2 md:grid-cols-3 gap-8 sm:gap-12">

@@ -3,15 +3,17 @@
     <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Header -->
         <div class="text-center mb-12">
-            <div class="inline-flex items-center justify-center gap-3 mb-3">
-                <span class="h-px w-12 bg-blue-500"></span>
-                <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700">Contact Us</h2>
-                <span class="h-px w-12 bg-blue-500"></span>
+            <div class="inline-flex items-center justify-center gap-3 mb-4">
+                <span class="h-px w-12 bg-aisd-orange"></span>
+                <span class="inline-block py-1.5 px-4 bg-aisd-orange-light text-aisd-orange rounded-full text-xs font-bold uppercase tracking-wider">
+            Contact Us
+        </span>
+                <span class="h-px w-12 bg-aisd-orange"></span>
             </div>
-            <h1 class="text-4xl lg:text-5xl font-bold font-teachers text-gray-800">
-                Get in Touch with AISD
+            <h1 class="text-4xl lg:text-5xl font-bold font-teachers text-gray-800 mb-4">
+                Get in Touch with <span class="text-aisd-orange">AISD</span>
             </h1>
-            <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
                 We'd love to hear from you. Reach out through any of the channels below.
             </p>
         </div>

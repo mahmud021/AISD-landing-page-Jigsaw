@@ -4,8 +4,12 @@
     <div class="container mx-auto px-4 flex flex-col gap-12">
         <!-- Section Header -->
         <div class="text-center mb-12">
-            <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">Current Activities</h2>
-            <p class="text-3xl sm:text-4xl font-bold text-gray-800">Ongoing Projects and Field Engagements</p>
+    <span class="inline-block py-1.5 px-4 bg-aisd-orange-light text-aisd-orange rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+        Current Activities
+    </span>
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4 teachers-font">
+                Ongoing <span class="text-aisd-orange">Projects & Field Engagements</span>
+            </h2>
         </div>
         <!-- Cards Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -77,10 +81,12 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Section Header -->
         <div class="text-center mb-12">
-            <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">Projects We Have Done</h2>
-            <p class="text-3xl sm:text-4xl font-bold text-gray-800">
-                Holistic Development: Community-Led Transformation Programs
-            </p>
+    <span class="inline-block py-1.5 px-4 bg-aisd-orange-light text-aisd-orange rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+        Projects We Have Done
+    </span>
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4 teachers-font">
+                Holistic Development: <span class="text-aisd-orange">Community-Led Transformation</span>
+            </h2>
         </div>
         <!-- Grid Layout -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

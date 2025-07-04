@@ -1,4 +1,3 @@
-
 <section class="py-16 bg-white">
     <div class="container mx-auto px-4 max-w-7xl">
         <!-- Section Header -->
@@ -201,12 +200,24 @@
                 <div class="mb-8">
                     <h4 class="text-xl font-semibold text-blue-900 mb-4">Operating across strategic locations:</h4>
                     <div class="flex flex-wrap gap-3">
-                        <span class="bg-blue-100 text-blue-900 py-2 px-4 rounded-full border border-blue-300">Abuja</span>
-                        <span class="bg-blue-100 text-blue-900 py-2 px-4 rounded-full border border-blue-300">Kano</span>
-                        <span class="bg-blue-100 text-blue-900 py-2 px-4 rounded-full border border-blue-300">Kaduna</span>
-                        <span class="bg-blue-100 text-blue-900 py-2 px-4 rounded-full border border-blue-300">Zamfara</span>
-                        <span class="bg-blue-100 text-blue-900 py-2 px-4 rounded-full border border-blue-300">Borno</span>
-                        <span class="bg-blue-100 text-blue-900 py-2 px-4 rounded-full border border-blue-300">Yobe</span>
+                        <span class="relative text-blue-900 bg-blue-100 border border-blue-400 rounded-md px-2 py-[2px] cursor-pointer hover:bg-blue-200 transition-colors">
+                            <span class="relative z-10">Abuja</span>
+                        </span>
+                        <span class="relative text-blue-900 bg-blue-100 border border-blue-400 rounded-md px-2 py-[2px] cursor-pointer hover:bg-blue-200 transition-colors">
+                            <span class="relative z-10">Kano</span>
+                        </span>
+                        <span class="relative text-blue-900 bg-blue-100 border border-blue-400 rounded-md px-2 py-[2px] cursor-pointer hover:bg-blue-200 transition-colors">
+                            <span class="relative z-10">Kaduna</span>
+                        </span>
+                        <span class="relative text-blue-900 bg-blue-100 border border-blue-400 rounded-md px-2 py-[2px] cursor-pointer hover:bg-blue-200 transition-colors">
+                            <span class="relative z-10">Zamfara</span>
+                        </span>
+                        <span class="relative text-blue-900 bg-blue-100 border border-blue-400 rounded-md px-2 py-[2px] cursor-pointer hover:bg-blue-200 transition-colors">
+                            <span class="relative z-10">Borno</span>
+                        </span>
+                        <span class="relative text-blue-900 bg-blue-100 border border-blue-400 rounded-md px-2 py-[2px] cursor-pointer hover:bg-blue-200 transition-colors">
+                            <span class="relative z-10">Yobe</span>
+                        </span>
                     </div>
                 </div>
 

@@ -2,10 +2,14 @@
 <section id="paace" data-spy class="py-16 bg-white sm:py-20 lg:py-24">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <!-- Section Header -->
-        <div class="text-center mb-12 max-w-3xl mx-auto">
-            <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">Our Strategic Framework</h2>
-            <p class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">The PAAC Vision</p>
-            <p class="text-lg text-gray-700">
+        <div class="text-center mb-12">
+    <span class="inline-block py-1.5 px-4 bg-aisd-orange-light text-aisd-orange rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+        Our Strategic Framework
+    </span>
+            <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4 teachers-font">
+                The <span class="text-aisd-orange">PAAC Vision</span>
+            </h2>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
                 At AISD, our mission is to drive transformative change in health. We achieve this through our comprehensive
                 <strong>PAAC Vision</strong>, a strategic framework that guides every innovation, policy reform, and community
                 engagement we undertake. It's our commitment to creating a healthier future for all.

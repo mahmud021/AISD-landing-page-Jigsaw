@@ -159,15 +159,23 @@
                 <!-- Right: Content Section (Unchanged Structure) -->
                 <div class="w-full lg:w-1/2 px-4 mt-10 lg:mt-0">
                     <!-- Section Label -->
+                    <!-- Standardized Header Structure for All Sections -->
                     <div class="text-center mb-12">
-                        <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700 mb-2">About Us</h2>
-                        <p class="text-3xl sm:text-4xl font-bold text-gray-800">Learn About Our Mission and Work</p>
-                    </div>
+                        <!-- Section Label (Uppercase) -->
+                        <span class="inline-block py-1.5 px-4 bg-aisd-orange-light text-aisd-orange rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+        About Us
+    </span>
 
-                    <!-- Vision Statement -->
-                    <p class="text-base text-gray-600 mb-10 max-w-md">
-                        To improve health outcomes and well-being across Nigeria and Africa through people-centered innovation, evidence-based advocacy, and community-led solutions.
-                    </p>
+                        <!-- Main Title -->
+                        <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4 teachers-font">
+                            Learn About Our <span class="text-aisd-orange">Mission and Work</span>
+                        </h2>
+
+                        <!-- Description -->
+                        <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+                            To improve health outcomes and well-being across Nigeria and Africa through people-centered innovation, evidence-based advocacy, and community-led solutions.
+                        </p>
+                    </div>
 
                     <!-- Info Grid - Enhanced Cards -->
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">

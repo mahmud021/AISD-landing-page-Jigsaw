@@ -8,15 +8,16 @@
     <!-- Header -->
     <div class="text-center mb-16 relative z-20 px-4">
         <div class="inline-flex items-center justify-center gap-2 mb-4">
-            <span class="h-px w-8 bg-blue-600"></span>
-            <h2 class="text-sm font-bold uppercase tracking-widest text-blue-700">Our Gallery</h2>
-            <span class="h-px w-8 bg-blue-600"></span>
+            <span class="h-px w-8 bg-aisd-orange"></span>
+            <span class="inline-block py-1.5 px-4 bg-aisd-orange-light text-aisd-orange rounded-full text-xs font-bold uppercase tracking-wider">
+            Our Gallery
+        </span>
+            <span class="h-px w-8 bg-aisd-orange"></span>
         </div>
-        <p class="text-3xl sm:text-4xl font-bold text-gray-800 max-w-2xl mx-auto leading-tight">
-            Visual Highlights <span class="text-blue-600">From Our Work</span>
-        </p>
+        <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 max-w-2xl mx-auto leading-tight teachers-font">
+            Visual <span class="text-aisd-orange">Highlights</span> From Our Work
+        </h2>
     </div>
-
     <!-- Optimized Marquee Rows -->
     <div class="relative z-10 space-y-8 md:space-y-12">
         <!-- Row 1 (Hero) -->
