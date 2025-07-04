@@ -15,88 +15,48 @@
         </div>
 
         <!-- Leadership Avatars -->
-        <div class="space-y-20">
-            <!-- Board -->
-            <div class="text-center">
-                <h3 class="text-xl font-semibold text-[#373968] mb-8 relative inline-block">
-                    <span class="relative z-10 px-4 bg-white">Board of Trustees</span>
-                    <span class="absolute left-0 right-0 top-1/2 h-px bg-[#373968]/20 -z-0"></span>
-                </h3>
-                <div class="flex justify-center">
-                    <div class="group relative">
-                        <div class="absolute -inset-1 bg-gradient-to-r from-[#373968]/20 to-[#373968]/40 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
-                        <div class="relative bg-white p-1 rounded-full">
-                            <img class="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
-                                 src='/assets/images/team/draudu.webp'
-                                 alt="Dr. Audu Liman"
-                                 loading="lazy" />
-                        </div>
-                        <div class="mt-6 text-center">
-                            <p class="text-lg font-medium text-[#373968]">Dr. Audu Liman</p>
-                            <p class="text-sm text-[#373968]/80 font-medium">Executive Chairman</p>
-                        </div>
+        <section class="py-4 bg-white">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                    <!-- Member Card -->
+                    <div class="bg-white rounded-2xl border border-[#373968]/10 p-6 text-center shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105">
+                        <img loading="lazy" src="/assets/images/team/draudu.webp" alt="Dr. Audu Liman" class="mb-4 h-32 w-32 rounded-xl mx-auto ring-2 ring-[#373968]/10 hover:ring-[#0203f9] transition">
+                        <h4 class="teachers-font text-lg md:text-xl font-bold text-[#373968] mb-1">Dr. Audu Liman</h4>
+                        <p class="uppercase text-xs tracking-wider text-[#373968]/60">Executive Chairman</p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl border border-[#373968]/10 p-6 text-center shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105">
+                        <img loading="lazy" src="/assets/images/team/salisu.webp" alt="Dr. Salisu Lawal" class="mb-4 h-32 w-32 rounded-xl mx-auto ring-2 ring-[#373968]/10 hover:ring-[#0203f9] transition">
+                        <h4 class="teachers-font text-lg md:text-xl font-bold text-[#373968] mb-1">Dr. Salisu Lawal</h4>
+                        <p class="uppercase text-xs tracking-wider text-[#373968]/60">Executive Director</p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl border border-[#373968]/10 p-6 text-center shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105">
+                        <img loading="lazy" src="/assets/images/team/mohammed.webp" alt="Mohammed Adamu" class="mb-4 h-32 w-32 rounded-xl mx-auto ring-2 ring-[#373968]/10 hover:ring-[#0203f9] transition">
+                        <h4 class="teachers-font text-lg md:text-xl font-bold text-[#373968] mb-1">Mohammed Adamu</h4>
+                        <p class="uppercase text-xs tracking-wider text-[#373968]/60">Director, HR & Admin</p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl border border-[#373968]/10 p-6 text-center shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105">
+                        <img loading="lazy" src="https://api.dicebear.com/9.x/initials/svg?seed=HM" alt="Hamza Mohammed" class="mb-4 h-32 w-32 rounded-xl mx-auto ring-2 ring-[#373968]/10 hover:ring-[#0203f9] transition">
+                        <h4 class="teachers-font text-lg md:text-xl font-bold text-[#373968] mb-1">Hamza Mohammed</h4>
+                        <p class="uppercase text-xs tracking-wider text-[#373968]/60">Senior Finance Officer</p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl border border-[#373968]/10 p-6 text-center shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105">
+                        <img loading="lazy" src="/assets/images/team/gambo.webp" alt="Musa Gambo" class="mb-4 h-32 w-32 rounded-xl mx-auto ring-2 ring-[#373968]/10 hover:ring-[#0203f9] transition">
+                        <h4 class="teachers-font text-lg md:text-xl font-bold text-[#373968] mb-1">Musa Gambo</h4>
+                        <p class="uppercase text-xs tracking-wider text-[#373968]/60">Head of Programs</p>
+                    </div>
+
+                    <div class="bg-white rounded-2xl border border-[#373968]/10 p-6 text-center shadow-md hover:shadow-xl transition-transform duration-300 hover:scale-105">
+                        <img loading="lazy" src="https://api.dicebear.com/9.x/initials/svg?seed=AB" alt="Dr. Aminu Bichi" class="mb-4 h-32 w-32 rounded-xl mx-auto ring-2 ring-[#373968]/10 hover:ring-[#0203f9] transition">
+                        <h4 class="teachers-font text-lg md:text-xl font-bold text-[#373968] mb-1">Dr. Aminu Bichi</h4>
+                        <p class="uppercase text-xs tracking-wider text-[#373968]/60">Head of Assessments</p>
                     </div>
                 </div>
             </div>
-
-            <!-- Executive Team -->
-            <div class="text-center">
-                <h3 class="text-xl font-semibold text-[#373968] mb-8 relative inline-block">
-                    <span class="relative z-10 px-4 bg-white">Executive Team</span>
-                    <span class="absolute left-0 right-0 top-1/2 h-px bg-[#373968]/20 -z-0"></span>
-                </h3>
-                <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 max-w-4xl mx-auto">
-                    @foreach([
-                      ['img' => '/assets/images/team/salisu.webp', 'name' => 'Dr. Salisu Lawal', 'role' => 'Executive Director'],
-                      ['img' => '/assets/images/team/mohammed.webp', 'name' => 'Mohammed Adamu', 'role' => 'Director, HR & Admin'],
-                      ['img' => 'https://api.dicebear.com/9.x/initials/svg?seed=HM', 'name' => 'Hamza Mohammed', 'role' => 'Senior Finance Officer'],
-                    ] as $member)
-                        <div class="group">
-                            <div class="relative bg-white p-1 rounded-full w-32 h-32 mx-auto mb-4">
-                                <img class="w-full h-full rounded-full object-cover border-4 border-white shadow-lg"
-                                     src="{{ $member['img'] }}"
-                                     alt="{{ $member['name'] }}"
-                                     loading="lazy" />
-                                <div class="absolute inset-0 rounded-full border-2 border-[#373968] opacity-0 group-hover:opacity-100 transition duration-300"></div>
-                            </div>
-                            <div class="text-center">
-                                <p class="text-lg font-medium text-[#373968]">{{ $member['name'] }}</p>
-                                <p class="text-sm text-[#373968]/80">{{ $member['role'] }}</p>
-                            </div>
-                        </div>
-                    @endforeach
-                </div>
-            </div>
-
-            <!-- Program Heads -->
-            <div class="text-center">
-                <h3 class="text-xl font-semibold text-[#373968] mb-8 relative inline-block">
-                    <span class="relative z-10 px-4 bg-white">Program Leadership</span>
-                    <span class="absolute left-0 right-0 top-1/2 h-px bg-[#373968]/20 -z-0"></span>
-                </h3>
-                <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
-                    @foreach([
-                      ['img' => '/assets/images/team/gambo.webp', 'name' => 'Musa Gambo', 'role' => 'Head of Programs'],
-                      ['img' => 'https://api.dicebear.com/9.x/initials/svg?seed=AB', 'name' => 'Dr. Aminu Bichi', 'role' => 'Head of Assessments'],
-                    ] as $member)
-                        <div class="group">
-                            <div class="relative bg-white p-1 rounded-full w-28 h-28 mx-auto mb-4">
-                                <img class="w-full h-full rounded-full object-cover border-4 border-white shadow-lg"
-                                     src="{{ $member['img'] }}"
-                                     alt="{{ $member['name'] }}"
-                                     loading="lazy" />
-                                <div class="absolute inset-0 rounded-full border-2 border-[#373968] opacity-0 group-hover:opacity-100 transition duration-300"></div>
-                            </div>
-                            <div class="text-center">
-                                <p class="font-medium text-[#373968]">{{ $member['name'] }}</p>
-                                <p class="text-xs text-[#373968]/80">{{ $member['role'] }}</p>
-                            </div>
-                        </div>
-                    @endforeach
-                </div>
-            </div>
-        </div>
-
+        </section>
         <!-- Scrolling Marquee for Broader Team -->
         <div class="pt-20">
             <h3 class="text-center text-xl font-semibold text-[#373968] mb-6">Our Broader Team</h3>
