@@ -1,15 +1,14 @@
-<!-- Team Section -->
-<section id="leadership" class="py-16 bg-white">
-    <div class="max-w-6xl mx-auto px-6">
+<section id="leadership" class="py-16 bg-white" data-spy>
+    <div class="container mx-auto px-4 max-w-7xl">
         <!-- Header -->
         <div class="text-center mb-16">
-      <span class="inline-block py-1.5 px-4 bg-aisd-orange-light text-aisd-orange rounded-full text-xs font-bold uppercase tracking-wider mb-4">
-        Our Leadership
-      </span>
-            <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4 teachers-font">
-                Strategic <span class="text-aisd-orange">Guidance for Impact</span>
+            <span class="inline-block py-1.5 px-4 bg-[#373968]/10 text-[#373968] rounded-full text-xs font-bold uppercase tracking-wider mb-4">
+                Our Leadership
+            </span>
+            <h2 class="text-3xl sm:text-4xl font-bold text-[#373968] mb-4 teachers-font">
+                Strategic <span class="underline decoration-[#373968]/40 underline-offset-4">Guidance for Impact</span>
             </h2>
-            <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+            <p class="text-lg text-[#373968]/80 max-w-3xl mx-auto">
                 While we proudly highlight our leadership team here, we're deeply grateful for our entire staff of
                 dedicated professionals who work tirelessly behind the scenes to make our mission possible every day.
             </p>
@@ -19,13 +18,13 @@
         <div class="space-y-20">
             <!-- Board -->
             <div class="text-center">
-                <h3 class="text-xl font-semibold text-gray-800 mb-8 relative inline-block">
+                <h3 class="text-xl font-semibold text-[#373968] mb-8 relative inline-block">
                     <span class="relative z-10 px-4 bg-white">Board of Trustees</span>
-                    <span class="absolute left-0 right-0 top-1/2 h-px bg-gray-200 -z-0"></span>
+                    <span class="absolute left-0 right-0 top-1/2 h-px bg-[#373968]/20 -z-0"></span>
                 </h3>
                 <div class="flex justify-center">
                     <div class="group relative">
-                        <div class="absolute -inset-1 bg-gradient-to-r rounded-full blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
+                        <div class="absolute -inset-1 bg-gradient-to-r from-[#373968]/20 to-[#373968]/40 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
                         <div class="relative bg-white p-1 rounded-full">
                             <img class="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
                                  src='/assets/images/team/draudu.webp'
@@ -33,8 +32,8 @@
                                  loading="lazy" />
                         </div>
                         <div class="mt-6 text-center">
-                            <p class="text-lg font-medium text-gray-800">Dr. Audu Liman</p>
-                            <p class="text-sm text-aisd-orange font-medium">Executive Chairman</p>
+                            <p class="text-lg font-medium text-[#373968]">Dr. Audu Liman</p>
+                            <p class="text-sm text-[#373968]/80 font-medium">Executive Chairman</p>
                         </div>
                     </div>
                 </div>
@@ -42,9 +41,9 @@
 
             <!-- Executive Team -->
             <div class="text-center">
-                <h3 class="text-xl font-semibold text-gray-800 mb-8 relative inline-block">
+                <h3 class="text-xl font-semibold text-[#373968] mb-8 relative inline-block">
                     <span class="relative z-10 px-4 bg-white">Executive Team</span>
-                    <span class="absolute left-0 right-0 top-1/2 h-px bg-gray-200 -z-0"></span>
+                    <span class="absolute left-0 right-0 top-1/2 h-px bg-[#373968]/20 -z-0"></span>
                 </h3>
                 <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 max-w-4xl mx-auto">
                     @foreach([
@@ -58,11 +57,11 @@
                                      src="{{ $member['img'] }}"
                                      alt="{{ $member['name'] }}"
                                      loading="lazy" />
-                                <div class="absolute inset-0 rounded-full border-2 border-aisd-orange opacity-0 group-hover:opacity-100 transition duration-300"></div>
+                                <div class="absolute inset-0 rounded-full border-2 border-[#373968] opacity-0 group-hover:opacity-100 transition duration-300"></div>
                             </div>
                             <div class="text-center">
-                                <p class="text-lg font-medium text-gray-800">{{ $member['name'] }}</p>
-                                <p class="text-sm text-gray-600">{{ $member['role'] }}</p>
+                                <p class="text-lg font-medium text-[#373968]">{{ $member['name'] }}</p>
+                                <p class="text-sm text-[#373968]/80">{{ $member['role'] }}</p>
                             </div>
                         </div>
                     @endforeach
@@ -71,9 +70,9 @@
 
             <!-- Program Heads -->
             <div class="text-center">
-                <h3 class="text-xl font-semibold text-gray-800 mb-8 relative inline-block">
+                <h3 class="text-xl font-semibold text-[#373968] mb-8 relative inline-block">
                     <span class="relative z-10 px-4 bg-white">Program Leadership</span>
-                    <span class="absolute left-0 right-0 top-1/2 h-px bg-gray-200 -z-0"></span>
+                    <span class="absolute left-0 right-0 top-1/2 h-px bg-[#373968]/20 -z-0"></span>
                 </h3>
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
                     @foreach([
@@ -86,11 +85,11 @@
                                      src="{{ $member['img'] }}"
                                      alt="{{ $member['name'] }}"
                                      loading="lazy" />
-                                <div class="absolute inset-0 rounded-full border-2 border-aisd-orange opacity-0 group-hover:opacity-100 transition duration-300"></div>
+                                <div class="absolute inset-0 rounded-full border-2 border-[#373968] opacity-0 group-hover:opacity-100 transition duration-300"></div>
                             </div>
                             <div class="text-center">
-                                <p class="font-medium text-gray-800">{{ $member['name'] }}</p>
-                                <p class="text-xs text-gray-600">{{ $member['role'] }}</p>
+                                <p class="font-medium text-[#373968]">{{ $member['name'] }}</p>
+                                <p class="text-xs text-[#373968]/80">{{ $member['role'] }}</p>
                             </div>
                         </div>
                     @endforeach
@@ -100,7 +99,7 @@
 
         <!-- Scrolling Marquee for Broader Team -->
         <div class="pt-20">
-            <h3 class="text-center text-xl font-semibold text-gray-800 mb-6">Our Broader Team</h3>
+            <h3 class="text-center text-xl font-semibold text-[#373968] mb-6">Our Broader Team</h3>
 
             @php
                 $staff = [
@@ -145,15 +144,15 @@
                 <div class="overflow-hidden mb-10 relative">
                     <div class="flex gap-4 w-max animate-marquee-slow {{ $index % 2 === 1 ? 'marquee-reverse' : '' }}">
                         @foreach($group as $member)
-                            <div class="min-w-[220px] flex-none bg-white rounded-xl border border-slate-200 shadow hover:shadow-lg transition p-4">
-                                <div class="text-sm font-semibold text-slate-800">{{ $member['name'] }}</div>
-                                <div class="text-xs text-slate-500 mt-1">{{ $member['role'] }}</div>
+                            <div class="min-w-[220px] flex-none bg-white rounded-xl border border-[#373968]/10 shadow hover:shadow-lg transition p-4">
+                                <div class="text-sm font-semibold text-[#373968]">{{ $member['name'] }}</div>
+                                <div class="text-xs text-[#373968]/80 mt-1">{{ $member['role'] }}</div>
                             </div>
                         @endforeach
                         @foreach($group as $member)
-                            <div class="min-w-[220px] flex-none bg-white rounded-xl border border-slate-200 shadow hover:shadow-lg transition p-4">
-                                <div class="text-sm font-semibold text-slate-800">{{ $member['name'] }}</div>
-                                <div class="text-xs text-slate-500 mt-1">{{ $member['role'] }}</div>
+                            <div class="min-w-[220px] flex-none bg-white rounded-xl border border-[#373968]/10 shadow hover:shadow-lg transition p-4">
+                                <div class="text-sm font-semibold text-[#373968]">{{ $member['name'] }}</div>
+                                <div class="text-xs text-[#373968]/80 mt-1">{{ $member['role'] }}</div>
                             </div>
                         @endforeach
                     </div>
@@ -163,7 +162,7 @@
 
         <!-- CTA -->
         <div class="text-center pt-10">
-            <p class="text-gray-600 mb-6 max-w-2xl mx-auto">
+            <p class="text-[#373968]/80 mb-6 max-w-2xl mx-auto">
                 Every member of our team plays a vital role in creating change. We appreciate their commitment and service.
             </p>
         </div>
