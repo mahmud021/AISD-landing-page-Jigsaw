@@ -102,7 +102,7 @@
     @include('_dashboard._section.projects')
     @include('_dashboard._section.stats')
     @include('_dashboard._section.volunteers')
-{{--    @include('_dashboard._section.testimonial')--}}
+    @include('_dashboard._section.testimonial')
     @include('_dashboard._section.gallery')
     @include('_dashboard._section.contact-us')
     @include('_dashboard._section.footer')
