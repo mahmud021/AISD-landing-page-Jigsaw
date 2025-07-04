@@ -97,7 +97,7 @@
                     <span class="relative z-10 px-4 bg-white">Program Leadership</span>
                     <span class="absolute left-0 right-0 top-1/2 h-px bg-gray-200 -z-0"></span>
                 </h3>
-                <div class="grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-5xl mx-auto">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
                     <div class="group">
                         <div class="relative bg-white p-1 rounded-full w-28 h-28 mx-auto mb-4">
                             <img class="w-full h-full rounded-full object-cover border-4 border-white shadow-lg"
@@ -115,20 +115,6 @@
                     <div class="group">
                         <div class="relative bg-white p-1 rounded-full w-28 h-28 mx-auto mb-4">
                             <img class="w-full h-full rounded-full object-cover border-4 border-white shadow-lg"
-                                 src='/assets/images/team/haladu.webp'
-                                 alt="Haladu Mohammed"
-                                 loading="lazy" />
-                            <div class="absolute inset-0 rounded-full border-2 border-aisd-orange opacity-0 group-hover:opacity-100 transition duration-300"></div>
-                        </div>
-                        <div class="text-center">
-                            <p class="font-medium text-gray-800">Haladu Mohammed</p>
-                            <p class="text-xs text-gray-600">Head of Education</p>
-                        </div>
-                    </div>
-
-                    <div class="group">
-                        <div class="relative bg-white p-1 rounded-full w-28 h-28 mx-auto mb-4">
-                            <img class="w-full h-full rounded-full object-cover border-4 border-white shadow-lg"
                                  src='https://api.dicebear.com/9.x/initials/svg?seed=AB'
                                  alt="Dr. Aminu Bichi"
                                  loading="lazy" />
@@ -137,20 +123,6 @@
                         <div class="text-center">
                             <p class="font-medium text-gray-800">Dr. Aminu Bichi</p>
                             <p class="text-xs text-gray-600">Head of Assessments</p>
-                        </div>
-                    </div>
-
-                    <div class="group">
-                        <div class="relative bg-white p-1 rounded-full w-28 h-28 mx-auto mb-4">
-                            <img class="w-full h-full rounded-full object-cover border-4 border-white shadow-lg"
-                                 src='/assets/images/team/prince.webp'
-                                 alt="Prince Effah"
-                                 loading="lazy" />
-                            <div class="absolute inset-0 rounded-full border-2 border-aisd-orange opacity-0 group-hover:opacity-100 transition duration-300"></div>
-                        </div>
-                        <div class="text-center">
-                            <p class="font-medium text-gray-800">Prince Effah</p>
-                            <p class="text-xs text-gray-600">Head of Logistics</p>
                         </div>
                     </div>
                 </div>

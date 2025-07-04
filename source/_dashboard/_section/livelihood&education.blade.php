@@ -163,7 +163,7 @@
                 <div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
                     <div class="partner-item bg-aisd-orange-light/20 rounded-xl p-4 text-center border border-aisd-orange-light">
                         <i class="fas fa-landmark text-aisd-orange text-2xl mb-2"></i>
-                        <h4 class="font-semibold text-gray-800">Governments</h4>
+                        <h4 class="font-semibold text-gray-800">Government</h4>
                     </div>
                     <div class="partner-item bg-aisd-orange-light/20 rounded-xl p-4 text-center border border-aisd-orange-light">
                         <i class="fas fa-city text-aisd-orange text-2xl mb-2"></i>
