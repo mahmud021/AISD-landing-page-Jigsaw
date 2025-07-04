@@ -48,13 +48,13 @@
 
                         <h4 class="mt-4 text-sm font-semibold text-[#373968] uppercase tracking-wide">Branch Offices</h4>
                         <ul class="mt-2 space-y-1 text-sm text-[#373968]/80">
-                            <li><strong>Kano:</strong> 15 Ahmadu Bello Way, Kano City</li>
-                            <li><strong>Kaduna:</strong> 27 Independence Road, Kaduna</li>
-                            <li><strong>Zamfara:</strong> No. 8 Government House Road, Gusau</li>
-                            <li><strong>Maiduguri:</strong> 13 Shehu Laminu Way, Maiduguri</li>
-                            <li><strong>Damaturu:</strong> Block 4, Gujba Road, Damaturu</li>
-                            <li><strong>Bama:</strong> Health Centre Lane, Bama</li>
-                            <li><strong>Ngala:</strong> Main Street Opposite Central Market, Ngala</li>
+{{--                            <li><strong>Kano:</strong> 15 Ahmadu Bello Way, Kano City</li>--}}
+                            <li><strong>Kaduna:</strong> no 5 gwamna road off nnamdi azikiwe express way, kaduna, kaduna state</li>
+{{--                            <li><strong>Zamfara:</strong> No. 8 Government House Road, Gusau</li>--}}
+{{--                            <li><strong>Maiduguri:</strong> 13 Shehu Laminu Way, Maiduguri</li>--}}
+{{--                            <li><strong>Damaturu:</strong> Block 4, Gujba Road, Damaturu</li>--}}
+{{--                            <li><strong>Bama:</strong> Health Centre Lane, Bama</li>--}}
+{{--                            <li><strong>Ngala:</strong> Main Street Opposite Central Market, Ngala</li>--}}
                         </ul>
                     </div>
                 </div>
