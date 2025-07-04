@@ -32,26 +32,26 @@
                     </div>
                     <div>
                         <h3 class="text-xl font-bold text-gray-800">General Inquiries</h3>
-                        <p class="text-gray-600">info@aisd.org</p>
-                        <p class="text-gray-600">+234 000 000 0000</p>
+                        <p class="text-gray-600">ed.aisd@maaun.edu.ng</p>
+                        <p class="text-gray-600">+2348083130614</p>
                     </div>
                 </div>
 
                 <!-- Item -->
-                <div class="flex items-start gap-4 border-l-4 border-blue-500 pl-5">
-                    <div class="w-10 h-10 flex items-center justify-center bg-white border-2 border-blue-500 rounded-full shadow outline outline-[3px] outline-blue-200/50">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-blue-500">
-                            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>
-                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>
-                            <line x1="12" x2="12" y1="19" y2="22"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="text-xl font-bold text-gray-800">Press & Media</h3>
-                        <p class="text-gray-600">press@aisd.org</p>
-                        <p class="text-gray-600">+234 000 000 0000</p>
-                    </div>
-                </div>
+{{--                <div class="flex items-start gap-4 border-l-4 border-blue-500 pl-5">--}}
+{{--                    <div class="w-10 h-10 flex items-center justify-center bg-white border-2 border-blue-500 rounded-full shadow outline outline-[3px] outline-blue-200/50">--}}
+{{--                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-5 h-5 text-blue-500">--}}
+{{--                            <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/>--}}
+{{--                            <path d="M19 10v2a7 7 0 0 1-14 0v-2"/>--}}
+{{--                            <line x1="12" x2="12" y1="19" y2="22"/>--}}
+{{--                        </svg>--}}
+{{--                    </div>--}}
+{{--                    <div>--}}
+{{--                        <h3 class="text-xl font-bold text-gray-800">Press & Media</h3>--}}
+{{--                        <p class="text-gray-600">press@aisd.org</p>--}}
+{{--                        <p class="text-gray-600">+234 000 000 0000</p>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
                 <!-- Item -->
                 <!-- Updated Head Office & Branches -->
@@ -64,11 +64,11 @@
                     </div>
                     <div>
                         <h3 class="text-xl font-bold text-gray-800">Head Office</h3>
-                        <p class="text-gray-600">No. 12 Unity Street, Maitama, Abuja, Nigeria</p>
+                        <p class="text-gray-600">No. 2 Ibrahim Ali Street, Off Alfa Wali Street
+                            Asokoro new Extension, Guzape, Abuja, Nigeria</p>
 
                         <h4 class="mt-4 text-sm font-semibold text-gray-700 uppercase tracking-wide">Branch Offices</h4>
                         <ul class="mt-2 space-y-1 text-gray-600 text-sm">
-                            <li><strong>FCT:</strong> Plot 22 Garki Area 2, Abuja</li>
                             <li><strong>Kano:</strong> 15 Ahmadu Bello Way, Kano City</li>
                             <li><strong>Kaduna:</strong> 27 Independence Road, Kaduna</li>
                             <li><strong>Zamfara:</strong> No. 8 Government House Road, Gusau</li>
