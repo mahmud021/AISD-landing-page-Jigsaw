@@ -14,7 +14,7 @@
     <!-- Open Graph Meta -->
     <meta property="og:title" content="@yield('title', $page->title ?? 'African Institute for Solutions and Development')">
     <meta property="og:description" content="@yield('description', $page->description ?? 'Empowering African communities through innovative, evidence-based health solutions and partnerships. AISD drives health equity and sustainable development across Africa.')">
-    <meta property="og:image" content="{{ $page->baseUrl }}/assets/images/logo.webp">
+    <meta property="og:image" content="{{ $page->baseUrl }}/assets/images/meta.png">
     <meta property="og:url" content="{{ $page->getUrl() }}">
     <meta property="og:type" content="website">
 
