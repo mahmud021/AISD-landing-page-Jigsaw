@@ -8,12 +8,12 @@
     <link rel="canonical" href="{{ $page->getUrl() }}">
 
     <!-- SEO Meta -->
-    <title>{{ $page->title ?? 'African Institute for Solutions and Development' }}</title>
-    <meta name="description" content="{{ $page->description ?? 'Empowering African communities through innovative, evidence-based health solutions and partnerships. AISD drives health equity and sustainable development across Africa.' }}">
+    <title>@yield('title', $page->title ?? 'African Institute for Solutions and Development')</title>
+    <meta name="description" content="@yield('description', $page->description ?? 'Empowering African communities through innovative, evidence-based health solutions and partnerships. AISD drives health equity and sustainable development across Africa.')">
 
     <!-- Open Graph Meta -->
-    <meta property="og:title" content="{{ $page->title ?? 'African Institute for Solutions and Development: Home' }}">
-    <meta property="og:description" content="{{ $page->description ?? 'Empowering African communities through innovative, evidence-based health solutions and partnerships. AISD drives health equity and sustainable development across Africa.' }}">
+    <meta property="og:title" content="@yield('title', $page->title ?? 'African Institute for Solutions and Development')">
+    <meta property="og:description" content="@yield('description', $page->description ?? 'Empowering African communities through innovative, evidence-based health solutions and partnerships. AISD drives health equity and sustainable development across Africa.')">
     <meta property="og:image" content="{{ $page->baseUrl }}/assets/images/logo.webp">
     <meta property="og:url" content="{{ $page->getUrl() }}">
     <meta property="og:type" content="website">

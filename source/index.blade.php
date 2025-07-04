@@ -1,6 +1,9 @@
 @extends('_layouts.main')
+@section('title', 'African Institute for Solutions and Development')
+@section('description', 'Empowering African communities through innovative, evidence-based health solutions and partnerships. AISD drives health equity and sustainable development across Africa.')
 
 @section('body')
+
     <nav
             x-data="{ open: false, active: '' }"
             x-init="
