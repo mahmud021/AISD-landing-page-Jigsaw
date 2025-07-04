@@ -1,4 +1,4 @@
-<section id="leadership" class="py-16 bg-white" data-spy>
+<section id="volunteers" class="py-16 bg-white" data-spy>
     <div class="container mx-auto px-4 max-w-7xl">
         <!-- Header -->
         <div class="text-center mb-16">

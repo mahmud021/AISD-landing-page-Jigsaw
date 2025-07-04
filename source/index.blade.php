@@ -21,15 +21,13 @@
     >
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center">
-                <!-- Logo -->
                 <!-- Logo + AISD Name -->
                 <a href="#hero" class="flex items-center space-x-2 group">
-                    <img src="/assets/images/logo.webp " alt="AISD Logo" class="h-8 w-auto">
-                    <span class="text-lg font-bold text-gray-800 group-hover:text-orange-600 transition">
-        AISD
-    </span>
+                    <img src="/assets/images/logo.webp" alt="AISD Logo" class="h-8 w-auto">
+                    <span class="text-lg font-bold text-[#373968] group-hover:text-[#0203f9] transition">
+                    AISD
+                </span>
                 </a>
-
 
                 <!-- Desktop Nav -->
                 <div class="hidden sm:flex space-x-6">
@@ -45,7 +43,9 @@
                 ]" :key="item.id">
                         <a
                                 :href="`#${item.id}`"
-                                :class="active === item.id ? 'text-orange-600 font-semibold nav-link' : 'text-gray-800 hover:text-orange-600 nav-link'"
+                                :class="active === item.id
+                            ? 'text-[#0203f9] font-semibold nav-link'
+                            : 'text-[#373968] hover:text-[#0203f9] nav-link'"
                                 class="transition px-1 py-2"
                                 x-text="item.label"
                         ></a>
@@ -54,7 +54,7 @@
 
                 <!-- Mobile toggle -->
                 <div class="sm:hidden flex items-center">
-                    <button @click="open = !open" class="text-gray-700 hover:text-orange-600 focus:outline-none">
+                    <button @click="open = !open" class="text-[#373968] hover:text-[#0203f9] focus:outline-none">
                         <svg x-show="!open" class="w-6 h-6" fill="none" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                   d="M4 6h16M4 12h16M4 18h16"/>
@@ -84,7 +84,9 @@
                     <a
                             :href="`#${item.id}`"
                             @click="open = false"
-                            :class="active === item.id ? 'text-orange-600 font-semibold nav-link' : 'text-gray-800 nav-link'"
+                            :class="active === item.id
+                        ? 'text-[#0203f9] font-semibold nav-link'
+                        : 'text-[#373968] hover:text-[#0203f9] nav-link'"
                             class="block px-1 py-2"
                             x-text="item.label"
                     ></a>
