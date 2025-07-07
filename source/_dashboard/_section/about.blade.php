@@ -104,17 +104,37 @@
                         <!-- Left Column -->
                         <div class="w-full px-3 sm:px-4 xl:w-1/2">
                             <!-- Top Image -->
+                            <!-- Top Image (Now Video) -->
                             <div class="py-3 sm:py-4 group relative">
                                 <div class="overflow-hidden rounded-2xl border-4 border-white shadow-2xl
-                transition-all duration-500 group-hover:border-[#373968]
-                group-hover:shadow-lg group-hover:-translate-y-1">
-                                    <img src='/assets/images/5.webp' alt="Community health activity"
-                                         class="w-full transform transition-transform duration-700 group-hover:scale-105" loading="lazy" />
-                                </div>
-                                <div class="absolute -bottom-3 -right-3 h-16 w-16 rounded-full bg-[#373968]/20
-                group-hover:bg-[#373968]/30 transition-opacity duration-300"></div>
-                            </div>
+      transition-all duration-500 group-hover:border-[#373968]
+      group-hover:shadow-lg group-hover:-translate-y-1">
 
+                                    <!-- Click-to-Play Video Container -->
+                                    <div class="aspect-video w-full relative cursor-pointer bg-black"
+                                         onclick="this.innerHTML = `<iframe class='w-full h-full' src='https://www.youtube.com/embed/7oX7ZfvgCC4?autoplay=1&rel=0&modestbranding=1' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>`">
+
+                                        <!-- YouTube Thumbnail (Auto-generated) -->
+                                        <img src="https://img.youtube.com/vi/7oX7ZfvgCC4/maxresdefault.jpg"
+                                             alt="Video thumbnail"
+                                             class="w-full h-full object-cover opacity-90 hover:opacity-80 transition-opacity"
+                                             onerror="this.src='https://img.youtube.com/vi/7oX7ZfvgCC4/hqdefault.jpg'">
+
+                                        <!-- Play Button Overlay -->
+                                        <div class="absolute inset-0 flex items-center justify-center">
+                                            <div class="h-16 w-16 bg-[#373968]/90 rounded-full flex items-center justify-center hover:bg-[#373968] transition-all">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" class="w-8 h-8 ml-1">
+                                                    <path d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Kept your decorative circle -->
+                                <div class="absolute -bottom-3 -right-3 h-16 w-16 rounded-full bg-[#373968]/20
+      group-hover:bg-[#373968]/30 transition-opacity duration-300"></div>
+                            </div>
                             <!-- Bottom Image -->
                             <div class="py-3 sm:py-4 group relative">
                                 <div class="overflow-hidden rounded-2xl border-4 border-white shadow-2xl
