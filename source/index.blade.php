@@ -99,6 +99,7 @@
     @include('_dashboard._section.hero')
     @include('_dashboard._section.about')
     @include('_dashboard._section.livelihood&education')
+    @include('_dashboard._section.news')
     @include('_dashboard._section.paace')
     @include('_dashboard._section.partners')
     @include('_dashboard._section.projects')
