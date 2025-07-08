@@ -34,7 +34,7 @@
                     <template x-for="item in [
                     { id: 'hero', label: 'Home' },
                     { id: 'about', label: 'About' },
-                    { id: 'paace', label: 'PAACE Vision' },
+                    { id: 'paace', label: 'PAAC Vision' },
                     { id: 'partners', label: 'Partners' },
                     { id: 'projects', label: 'Projects' },
                     { id: 'volunteers', label: 'The Team' },

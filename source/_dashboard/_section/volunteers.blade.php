@@ -74,7 +74,7 @@
                   ['name' => 'Rabiu Dakata', 'role' => 'Logistic Officer'],
                   ['name' => 'Mahjuba Nuruddeen Maisikeli', 'role' => 'Education Officer'],
                   ['name' => 'Haruna Aliyu Obida', 'role' => 'Vocational Skills Training Officer'],
-                  ['name' => 'Muyiwa Oluwe', 'role' => 'Head Systems Strengthening'],
+                  ['name' => 'Muyiwa Olowe', 'role' => 'Head Systems Strengthening'],
                   ['name' => 'Haladu Mohammed', 'role' => 'Head of Education'],
                   ['name' => 'Nafisa Ado', 'role' => 'Head of Partnerships'],
                   ['name' => 'Musa Usman Dibal', 'role' => 'TPD Advisor'],
