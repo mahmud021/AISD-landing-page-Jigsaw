@@ -6,7 +6,7 @@
                 Our Leadership
             </span>
             <h2 class="text-3xl sm:text-4xl font-bold text-[#373968] mb-4 teachers-font">
-                Strategic <span class="underline decoration-[#373968]/40 underline-offset-4">Guidance for Impact</span>
+                Strategic Guidance for Impact
             </h2>
             <p class="text-lg text-[#373968]/80 max-w-3xl mx-auto">
                 While we proudly highlight our leadership team here, we're deeply grateful for our entire staff of

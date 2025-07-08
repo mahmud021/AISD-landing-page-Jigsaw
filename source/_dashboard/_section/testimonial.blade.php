@@ -6,7 +6,7 @@
                 Government Endorsements
             </span>
             <h2 class="text-3xl sm:text-4xl font-bold text-[#373968] mb-4 teachers-font">
-                Recognized by <span class="underline decoration-[#373968]/40 underline-offset-4">Government Institutions</span>
+                Recognized by Government Institutions
             </h2>
             <p class="text-lg text-[#373968]/80 max-w-3xl mx-auto">
                 Official commendations from government partners on our collaborative development initiatives.

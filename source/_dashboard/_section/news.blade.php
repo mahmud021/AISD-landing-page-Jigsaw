@@ -7,7 +7,7 @@
                 Latest Updates
             </span>
             <h2 class="text-3xl sm:text-4xl font-bold text-[#373968] mb-4 teachers-font">
-                News & <span class="underline decoration-[#373968]/40 underline-offset-4">Announcements</span>
+                News & Announcements
             </h2>
             <p class="text-lg text-[#373968]/80 max-w-3xl mx-auto">
                 Stay informed about our latest research, events, and community engagements.

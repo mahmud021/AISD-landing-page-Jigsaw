@@ -78,7 +78,7 @@
             <div class="w-full lg:w-[55%] space-y-4 md:space-y-6">
                 <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold font-teachers leading-tight md:leading-snug text-[#373968]">
                     A Commitment to Stronger
-                    <span class="underline underline-offset-4 decoration-[#373968]/60">African Nations</span>
+                   African Nations
                     Through Healthier Communities
                 </h2>
                 <p class="text-[#373968]/90 text-base md:text-lg leading-relaxed">
@@ -174,7 +174,7 @@
           </span>
 
                         <h2 class="text-3xl sm:text-4xl font-bold text-[#373968] mb-4 teachers-font">
-                            Learn About Our <span class="underline decoration-[#373968]/50 underline-offset-4">Mission and Work</span>
+                            Learn About OurMission and Work
                         </h2>
 
                         <p class="text-lg text-[#373968]/80 max-w-3xl mx-auto">
