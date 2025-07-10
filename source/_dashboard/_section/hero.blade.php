@@ -11,8 +11,8 @@
     <!-- Content -->
     <div class="relative z-20 flex flex-col justify-center h-full px-4 md:px-16 gap-4 md:gap-6">
         <h1 class="text-white text-3xl md:text-6xl font-bold font-teachers leading-tight max-w-4xl">
-            Transforming Health Systems for
-            <span class="text-[#373968]">Lasting Impact</span>
+            Transforming Education and Health Systems for
+            Lasting Impact through research
         </h1>
         <p class="text-white text-base md:text-xl font-extrabold font-lexend max-w-2xl">
             AISD – African Institute for Solutions and Development
